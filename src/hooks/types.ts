@@ -9,7 +9,7 @@ type UseTypeBaseResult<TValue> = {
 type UseTypeBaseAllResult<TValue> = UseTypeBaseResult<TValue> & {
   fetchAll: () => Promise<void>
 }
-
+ 
 type UseTypeBaseByIdResult<TValue> = UseTypeBaseResult<TValue> & {
   fetchById: (id: string) => Promise<void>
 }
